@@ -1,0 +1,8 @@
+mpd:
+  container_name: mpd
+  ports:
+    - "6600:6600"
+    - "8888:8888"
+  build: .
+  volumes:
+    - "/Users/phaser/Music:/opt/music"

@@ -15,6 +15,6 @@ RUN mkdir -p /home/mpd/logs
 RUN chown -R mpd /home/mpd
 RUN chmod +x /home/mpd/start.sh
 
-EXPOSE 6600 8000
+EXPOSE 6600 8888
 
 ENTRYPOINT /home/mpd/start.sh
