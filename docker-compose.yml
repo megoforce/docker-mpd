@@ -3,6 +3,7 @@ mpd:
   ports:
     - "6600:6600"
     - "8888:8888"
+    - "8889:8889"
   build: .
   volumes:
     - "/Users/phaser/Music:/opt/music"
